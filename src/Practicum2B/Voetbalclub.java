@@ -14,7 +14,6 @@ public class Voetbalclub {
 
     }
 
-
     public int aantalPunten(){
         return (aantalGewonnen * 3) + aantalGelijk;
     }
