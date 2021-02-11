@@ -3,15 +3,18 @@ package Practicum3B;
 public class Main {
     public static void main(String[] args) {
         Cirkel c1 = null, c2 = null;
-
-        try {
+//
+//        try {
             c1 = new Cirkel(10, 0, 0);
             c2 = new Cirkel(0, 10, 10);
-        } catch (IllegalArgumentException iae) {
-            System.out.println(iae.getMessage());
-        }
+//        } catch (IllegalArgumentException iae) {
+//            System.out.println(iae.getMessage());
+//        }
 
         System.out.println(c1);
         System.out.println(c2);
     }
 }
+
+/** De code stop met werken wanneer je de Try en Catch weghaalt, dit komt omdat je voor jezelf een foutmelding opgooit die je niet meer behandelt.
+ **/
