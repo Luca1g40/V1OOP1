@@ -3,39 +3,39 @@ package Practicum2A;
 import java.util.zip.ZipEntry;
 
 public class Zwembad {
-    private Double Breedte;
-    private Double Lengte;
-    private Double Diepte;
+    private double breedte;
+    private double lengte;
+    private double diepte;
 
-    public Zwembad(Double Breedte, Double Lengte, Double Diepte) {
-        this.Breedte = Breedte;
-        this.Lengte = Lengte;
-        this.Diepte = Diepte;
+    public Zwembad(double breedte, double lengte, double diepte) {
+        this.breedte = breedte;
+        this.lengte = lengte;
+        this.diepte = diepte;
     }
     public Zwembad(){
     }
-    public Double inhoud(){
-        return Breedte * Lengte * Diepte;
+    public double inhoud(){
+        return breedte * lengte * diepte;
     }
-    public void setBreedte(Double Breedte){
-        this.Breedte = Breedte;
+    public void setbreedte(double breedte){
+        this.breedte = breedte;
     }
-    public void setLengte(Double Lengte){
-        this.Lengte = Lengte;
+    public void setlengte(double lengte){
+        this.lengte = lengte;
     }
-    public void setDiepte(Double Diepte){
-        this.Diepte = Diepte;
+    public void setdiepte(double diepte){
+        this.diepte = diepte;
     }
-    public Double getBreedte(){
-        return Breedte;
+    public double getbreedte(){
+        return breedte;
     }
-    public Double getLengte() {
-        return Lengte;
+    public double getlengte() {
+        return lengte;
     }
-    public Double getDiepte() {
-        return Diepte;
+    public double getdiepte() {
+        return diepte;
     }
     public String toString(){
-       return "GEGEVENS ZWEMBAD: Dit zwembad is " +Breedte +" meter breed, " + Lengte + " meter lang, en " + Diepte + "meter diep";
+       return "GEGEVENS ZWEMBAD: Dit zwembad is " +breedte +" meter breed, " + lengte + " meter lang, en " + diepte + "meter diep";
     }
 }
